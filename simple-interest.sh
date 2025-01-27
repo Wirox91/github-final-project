@@ -19,4 +19,4 @@
    #read $3
    s=`expr $1 \* $3 \* $2 / 100`
    echo "The simple interest is: "
-   echo $s
+   echo $(($1 \* $3 \* $2 / 100))
